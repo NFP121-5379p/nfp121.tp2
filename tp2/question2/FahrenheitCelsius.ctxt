@@ -4,7 +4,7 @@ comment0.text=\r\n\ D\u00E9crivez\ votre\ classe\ FahrenheitCelsius\ ici.\r\n\ \
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 comment1.text=\ le\ point\ d'entr\u00E9e\ de\ cette\ application,\ \r\n\ dont\ le\ commentaire\ est\ \u00E0\ compl\u00E9ter\r\n\r\n\ \ @param\ args\ ...\r\n
-comment2.params=f
-comment2.target=float\ fahrenheitEnCelsius(int)
-comment2.text=\ \r\n\ la\ m\u00E9thode\ \u00E0\ compl\u00E9ter.\ \r\n\ \ \ @param\ f\ la\ valeur\ en\ degr\u00E9\ Fahrenheit\r\n\ \ \ @return\ \ la\ conversion\ en\ degr\u00E9\ Celsius\r\n
+comment2.params=values
+comment2.target=java.lang.String\ fahrenheitEnCelsius(java.lang.String)
+comment2.text=\ public\ static\ float\ fahrenheitEnCelsius(\ int\ f){\r\n\ \ \ \ \ \ \ \ float\ c;\r\n\ \ \ \ \ \ \ \ \ c\ \=\ \ (f\ -32)\ /\ (float)1.8\ ;\ \ \ \ \r\n\ \ \ \ \ \ \ \ return\ c;\ \ \ \ //\ \u00E0\ compl\u00E9ter\ \ \ \ en\ rempla\u00E7ant\ la\ valeur\ retourn\u00E9e\ par\ la\ fonction\ de\ conversion\r\n\ \ \ \ \ \ \ //\ ...\r\n}
 numComments=3
